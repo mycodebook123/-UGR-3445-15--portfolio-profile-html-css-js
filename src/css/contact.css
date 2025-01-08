@@ -1,0 +1,181 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0fbff;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 123px;
+  margin-bottom: 60px;
+  font-size: 64px;
+  color: #333333;
+}
+
+h2 {
+  margin: 14px 0 10px;
+  font-size: 40px;
+  color: #3b82f6;
+  opacity: 80%;
+}
+
+.intro {
+  margin-left: 40px;
+  margin-right: 665px;
+}
+
+p {
+  text-align: left;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.6;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 40px;
+  margin: -30px 20px;
+}
+
+section {
+  flex: 1;
+  max-width: 100%;
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input,
+textarea,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  background-color: #f4f8f9;
+  border-radius: 10px;
+}
+input {
+  height: 30px;
+  margin-top: -5px;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  height: 46px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: -20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+address {
+  margin-top: -20;
+  margin-right: -5px;
+}
+.second {
+  margin-left: auto;
+  margin-right: -20px;
+  margin-top: -120px;
+}
+.social-icons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-top: -20px;
+}
+
+.social-icons img {
+  width: 63px;
+  height: 63px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+strong {
+  font-size: 40px;
+  font-style: normal;
+}
+
+input:hover {
+  border: 1.4px solid #3b82f6;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  .intro {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .contact-container {
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 36px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .intro {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
